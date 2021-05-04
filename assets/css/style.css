@@ -1,0 +1,48 @@
+header{
+    background-color: cadetblue;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    }
+
+h1{
+    display: inline;
+}
+
+h2{
+    color: darkblue;
+}
+
+aside{
+    border-right: solid darkblue;
+    padding: 5px;
+    width: 25%;
+}
+
+section{
+    border:solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+
+#about{
+    margin-top: 60px;
+}
+
+nav{
+    display: inline;
+}
+
+li{
+display: inline;
+text-decoration: underline;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+}
