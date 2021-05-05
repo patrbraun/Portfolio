@@ -5,6 +5,7 @@ header{
     left: 0;
     right: 0;
     width: 100%;
+    z-index: 99;
     }
 
 h1{
@@ -48,14 +49,32 @@ text-decoration: underline;
     flex-direction: column;
 }
 
+#first_card img{
+    transform: scale(2,2);
+    margin:100px;
+    
+}
+
 @media screen and (max-width: 768px) {  
      /*  */
     section,  nav {
         flex-direction: column;
     }  
+
+    nav{
+        display: block;
+    }
+
+    li{
+        display: block;
+    }
     /* Change border positions on headings  */
     aside {
         border-right: none;
         border-bottom: solid darkblue;
     }  
+
+    #about{
+        margin-top: 100px;
+    }
 }
