@@ -18,11 +18,12 @@ h2{
 aside{
     border-right: solid darkblue;
     padding: 5px;
-    width: 25%;
+    margin-right: 5px;
+    width: 100px;
 }
 
 section{
-    border:solid black 1px;
+    /* border:solid black 1px; */
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 10px;
@@ -45,4 +46,16 @@ text-decoration: underline;
 .card{
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {  
+     /*  */
+    section,  nav {
+        flex-direction: column;
+    }  
+    /* Change border positions on headings  */
+    aside {
+        border-right: none;
+        border-bottom: solid darkblue;
+    }  
 }
