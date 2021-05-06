@@ -14,4 +14,8 @@ Click on work images to go the each respective piece of work. Currently the imag
 
 Contact information is located at the bottom of the portfolio page.
 
+## Known Issues
+
+Work images encroach on side headings.
+
 
