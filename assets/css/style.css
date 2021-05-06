@@ -6,6 +6,9 @@ header{
     right: 0;
     width: 100%;
     z-index: 99;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
     }
 
 h1{
@@ -30,7 +33,7 @@ section{
 }
 
 #about{
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 nav{
