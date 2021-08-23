@@ -56,14 +56,8 @@ text-decoration: underline;
 .card img{
     border: solid 3px darkblue;
     border-radius: 5px;
-    max-width:200px;
-    max-height:200px;
-}
-
-#first_card img{
     max-width:400px;
     max-height:400px;
-    
 }
 
 @media screen and (max-width: 768px) {  
